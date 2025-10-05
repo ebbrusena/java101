@@ -10,9 +10,9 @@ public class Kdv {
         double kdvTutar = tutar * kdvOran;
 
         double kdvliTutar = tutar + kdvTutar;
-        System.out.println("kdv oranı: " kdvOran);
-        System.out.println("kdv tutarı:" kdvTutar);
-        System.out.println("kdvli tutar:" kdvliTutar);
+        System.out.println("kdv oranı: "+kdvOran);
+        System.out.println("kdv tutarı:"+kdvTutar);
+        System.out.println("kdvli tutar:"+kdvliTutar);
         System.out.println(kdvliTutar);
 
     }
