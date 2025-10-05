@@ -13,6 +13,6 @@ public class Taksimetre {
         total += startPrice;
 
         total = (total<20) ? 20 : total;
-        System.out.println("toplam tutar: "total);
+        System.out.println("toplam tutar: "+total);
     }
 }
